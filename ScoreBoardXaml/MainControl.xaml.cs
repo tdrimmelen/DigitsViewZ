@@ -17,6 +17,7 @@ namespace ScoreboardV2Xaml
         private string theTimeclockUrl;
         private string theShotclockUrl;
         private long theAttentionTime = 5;
+        Brush theShotclockStdColor;
 
         private ScoreboardRetriever theScoreboardRetriever;
         private TimeclockRetriever theTimeclockRetriever;
@@ -35,8 +36,9 @@ namespace ScoreboardV2Xaml
 
             string configFileName = baseFolder + "\\Scoreboard.config";
             string backgroundImageFile = "";
-            string zeroSubstitutionImageFile = "";
+          //  string zeroSubstitutionImageFile = "";
             string substitutionInfo = "yes";
+   
 
             try
             {
@@ -48,7 +50,7 @@ namespace ScoreboardV2Xaml
                 time = Int64.Parse(myConfig["refreshTime"]);
                 theAttentionTime = Int64.Parse(myConfig["attentionTime"]);
                 backgroundImageFile = myConfig["backgroundImageFile"];
-                zeroSubstitutionImageFile = myConfig["zeroSubstitutionImageFile"];
+              //  zeroSubstitutionImageFile = myConfig["zeroSubstitutionImageFile"];
                 substitutionInfo = myConfig["substitutionInfo"];
             }
             catch(Exception e)
@@ -76,26 +78,12 @@ namespace ScoreboardV2Xaml
                 backgroundImageFile = baseFolder + @"/Images/scoreboard.png";
             }
 
-            if (zeroSubstitutionImageFile == "")
-            {
-                zeroSubstitutionImageFile = baseFolder + @"/Images/s0.png";
-            }
 
             // Initialise source
-            if (substitutionInfo.ToLower() == "no")
-            {
-                HOME_SUBSTITUTE_IMAGE.Visibility = Visibility.Hidden;
-                GUEST_SUBSTITUTE_IMAGE.Visibility = Visibility.Hidden;
-                SUBSTITUTES.Visibility = Visibility.Hidden;
-            }
-            else
-            {
-                InitImageSource(HOME_SUBSTITUTE_IMAGE, zeroSubstitutionImageFile);
-                InitImageSource(GUEST_SUBSTITUTE_IMAGE, zeroSubstitutionImageFile);
-            }
             InitImageSource(BGIMG, backgroundImageFile );
             
             BitmapImage mySource = new BitmapImage();
+            theShotclockStdColor = SHOTCLOCK.Fill;
        
         }
 
@@ -146,15 +134,15 @@ namespace ScoreboardV2Xaml
                 SHOTCLOCK.Text = String.Format("{0:00}", aResponse.Time);
                 if (aResponse.Time <= theAttentionTime)
                 {
-                    SHOTCLOCK.Fill = new SolidColorBrush(Colors.Yellow);
+                    SHOTCLOCK.Fill = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFE6E620"));
                 }
                 else
                 {
-                    SHOTCLOCK.Fill = new SolidColorBrush(Colors.White);
+                    SHOTCLOCK.Fill = theShotclockStdColor;
                 }
             }
             else
-            {
+            { 
                 SHOTCLOCK.Text = "-";
             }
         }

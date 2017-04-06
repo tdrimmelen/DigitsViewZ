@@ -94,9 +94,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\s0.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Images\Scoreboard.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

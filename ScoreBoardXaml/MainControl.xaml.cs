@@ -119,11 +119,13 @@ namespace ScoreboardV2Xaml
 
             if (aResponse != null && aResponse.Status == "OK")
             {
-                TIME.Text = String.Format("{0}", aResponse.Minute) + ":" + String.Format("{0:00}", aResponse.Second);
+                TIMEMINUTE.Text = String.Format("{0}", aResponse.Minute);
+                TIMESECOND.Text = String.Format("{0:00}", aResponse.Second);
             }
             else
             {
-                TIME.Text = "-";
+                TIMEMINUTE.Text = "-";
+                TIMESECOND.Text = "-";
             }
         }
         private void ShotclockUpdate(ShotclockResponse aResponse)

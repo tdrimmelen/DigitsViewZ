@@ -15,43 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_18012198AC4E4CF3833086592A8E3452"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2526CCA8FECDEFE938B55F35B7B2D0B9"
         "OwnerKey" = "8:_5EC7707AE92A45829E31131A0BD68691"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3D41A0697C7F4EDE9365E316350CB788"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_5EC7707AE92A45829E31131A0BD68691"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_668F7F665B144998A3774F32E17087A9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6C1B680CDDFA4C31AD9530323C7A6C74"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_784DCC3ABAF04C0FABDAF25C09A12830"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -63,14 +33,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_93A121D1409266332562B19A3D4B3611"
-        "OwnerKey" = "8:_5EC7707AE92A45829E31131A0BD68691"
+        "MsmKey" = "8:_9334530A93FC484A932EC1FE349B8DAF"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A73A466D318940C791867222AC6D4FE2"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_93A121D1409266332562B19A3D4B3611"
+        "OwnerKey" = "8:_5EC7707AE92A45829E31131A0BD68691"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -186,26 +156,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18012198AC4E4CF3833086592A8E3452"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\FS Truman-Italic.otf"
-            "TargetName" = "8:FS Truman-Italic.otf"
-            "Tag" = "8:"
-            "Folder" = "8:_37ECE8F450B3409D8C2F60518E5F8D4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2526CCA8FECDEFE938B55F35B7B2D0B9"
             {
             "AssemblyRegister" = "3:1"
@@ -237,92 +187,32 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3D41A0697C7F4EDE9365E316350CB788"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\FS Truman-Light.otf"
-            "TargetName" = "8:FS Truman-Light.otf"
-            "Tag" = "8:"
-            "Folder" = "8:_37ECE8F450B3409D8C2F60518E5F8D4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_668F7F665B144998A3774F32E17087A9"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\FS Truman-Regular.otf"
-            "TargetName" = "8:FS Truman-Regular.otf"
-            "Tag" = "8:"
-            "Folder" = "8:_37ECE8F450B3409D8C2F60518E5F8D4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C1B680CDDFA4C31AD9530323C7A6C74"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\FS Truman-BoldItalic.otf"
-            "TargetName" = "8:FS Truman-BoldItalic.otf"
-            "Tag" = "8:"
-            "Folder" = "8:_37ECE8F450B3409D8C2F60518E5F8D4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_784DCC3ABAF04C0FABDAF25C09A12830"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\FS Truman-Bold.otf"
-            "TargetName" = "8:FS Truman-Bold.otf"
-            "Tag" = "8:"
-            "Folder" = "8:_37ECE8F450B3409D8C2F60518E5F8D4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DE90C0049184A3092D9A651113997E0"
             {
             "SourcePath" = "8:..\\ScoreBoardXaml\\Scoreboard.config"
             "TargetName" = "8:Scoreboard.config"
             "Tag" = "8:"
             "Folder" = "8:_3E0351E11ECA41B28904C7B0B1A63280"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9334530A93FC484A932EC1FE349B8DAF"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\Diodrum-Semibold.otf"
+            "TargetName" = "8:Diodrum-Semibold.otf"
+            "Tag" = "8:"
+            "Folder" = "8:_37ECE8F450B3409D8C2F60518E5F8D4E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -366,26 +256,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A73A466D318940C791867222AC6D4FE2"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\FS Truman-LightItalic.otf"
-            "TargetName" = "8:FS Truman-LightItalic.otf"
-            "Tag" = "8:"
-            "Folder" = "8:_37ECE8F450B3409D8C2F60518E5F8D4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -467,7 +337,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DigitsViewZiggo v1.1"
         "ProductCode" = "8:{9CBE449D-A2CC-4ECB-BB4C-CD9C51A27353}"
-        "PackageCode" = "8:{11B6A3F3-D569-43A8-9844-3BE9FF880678}"
+        "PackageCode" = "8:{245978C7-A7C0-48C9-A6CB-3ABC00E31161}"
         "UpgradeCode" = "8:{F45B6906-07D4-460D-8D91-85C28778BA37}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
